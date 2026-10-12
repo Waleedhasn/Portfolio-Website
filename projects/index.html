@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Projects — Waleed Hassan</title>
+  <meta name="description" content="Featured software projects by Waleed Hassan, including Assignment Management System, Thesis Management System, Solitaire Game, and Inventory Management System.">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    a, a:link, a:visited { color: inherit; text-decoration: none !important; }
+  </style>
+
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="portfolio-page page-projects">
+
+  <!-- Unified Portfolio Sticky Navigation Header -->
+  <header class="hero-stage-nav" id="main-nav" style="max-width: 1400px; margin: 0 auto; padding: 1.5rem 2.5rem; position: sticky; top: 0; z-index: 100; backdrop-filter: blur(24px); background: rgba(6, 2, 5, 0.88); border-bottom: 1px solid rgba(255, 255, 255, 0.08);">
+    <a href="../index.html" class="hero-nav-logo">
+      <span class="logo-badge">W</span>
+      <div class="logo-text">
+        <span class="logo-name">Portfolio</span>
+        <span class="logo-sub">Waleed Hassan &bull; UET Lahore &bull; Gujranwala</span>
+      </div>
+    </a>
+
+    <nav class="hero-nav-desktop" aria-label="Main Navigation">
+      <ul class="hero-nav-links">
+        <li><a href="../index.html#hero" class="hero-nav-link">Home</a></li>
+        <li><a href="../index.html#about" class="hero-nav-link">About</a></li>
+        <li><a href="../projects.html" class="hero-nav-link active">Projects</a></li>
+        <li><a href="../index.html#skills" class="hero-nav-link">Skills</a></li>
+        <li><a href="../index.html#education" class="hero-nav-link">Education</a></li>
+        <li><a href="../experience.html" class="hero-nav-link">Experience</a></li>
+        <li><a href="../index.html#contact" class="hero-nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-nav-cta">
+      <a href="../index.html#contact" class="btn-pill-action">
+        <span>Get in touch</span>
+        <span class="btn-pill-icon-circle">&rarr;</span>
+      </a>
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Navigation">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+    <ul class="mobile-drawer-links">
+      <li><a href="../index.html#hero" class="mobile-drawer-link">Home</a></li>
+      <li><a href="../index.html#about" class="mobile-drawer-link">About</a></li>
+      <li><a href="../projects.html" class="mobile-drawer-link active">Projects</a></li>
+      <li><a href="../index.html#skills" class="mobile-drawer-link">Skills</a></li>
+      <li><a href="../index.html#github" class="mobile-drawer-link">GitHub</a></li>
+      <li><a href="../index.html#education" class="mobile-drawer-link">Education</a></li>
+      <li><a href="../experience.html" class="mobile-drawer-link">Experience</a></li>
+      <li><a href="../index.html#contact" class="mobile-drawer-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <main class="page-content-wrapper">
+    <section class="section" style="padding-top: 4rem; padding-bottom: 5rem;">
+      <div class="container">
+        <div class="section-header" style="text-align: left; margin-bottom: 3.5rem;">
+          <span class="label-pill-sub">Selected Work</span>
+          <h1 class="section-title">Engineered Software Projects</h1>
+          <p class="section-subtitle">Real software implementations across data structures, relational databases, game engineering, and object-oriented store architectures.</p>
+        </div>
+
+        <div class="projects-cards-grid">
+          <!-- Project 1: Assignment Management System -->
+          <article class="project-framer-card">
+            <div class="project-thumb-box">
+              <svg viewBox="0 0 400 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="240" fill="#0d0411"/>
+                <circle cx="200" cy="120" r="90" stroke="rgba(255, 77, 46, 0.2)" stroke-width="1.5" stroke-dasharray="4 4"/>
+                <path d="M120 80L200 50L280 80L300 160L200 190L100 160Z" stroke="rgba(255, 77, 46, 0.5)" stroke-width="1.5"/>
+                <circle cx="200" cy="120" r="22" fill="#9b191c" stroke="#ff4d2e" stroke-width="2"/>
+                <text x="200" y="125" font-family="'Plus Jakarta Sans', sans-serif" font-weight="bold" font-size="11" fill="#ffffff" text-anchor="middle">DSA</text>
+                <rect x="30" y="30" width="100" height="26" rx="4" fill="rgba(255, 77, 46, 0.15)"/>
+                <text x="40" y="47" font-family="'JetBrains Mono', monospace" font-size="9" fill="#ff4d2e">PRIORITY QUEUE</text>
+              </svg>
+            </div>
+            <div class="project-content-box">
+              <div>
+                <span class="project-tag-pill">Algorithms &amp; DSA</span>
+                <h3 class="project-card-heading">Assignment Management System</h3>
+                <p class="project-card-summary">
+                  Algorithmic workflow coordination system designed to automate submissions, deadlines, and evaluations utilizing optimized data structures.
+                </p>
+                <div class="project-tech-pills">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">DSA</span>
+                  <span class="tech-tag">Priority Queue</span>
+                </div>
+              </div>
+              <div class="project-card-btns">
+                <a href="https://github.com/Waleedhasn/DSAFINALPROJECT/commit/98eb44240d9ab30b866ae73d66897020bfa3549e" target="_blank" rel="noopener noreferrer" class="btn-card-primary">
+                  GitHub &rarr;
+                </a>
+                <button type="button" class="btn-card-secondary" data-project-id="assignment-system">
+                  Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Thesis Management System -->
+          <article class="project-framer-card">
+            <div class="project-thumb-box">
+              <svg viewBox="0 0 400 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="240" fill="#0d0411"/>
+                <rect x="40" y="40" width="130" height="70" rx="6" fill="#1b0620" stroke="rgba(255, 77, 46, 0.4)"/>
+                <rect x="40" y="40" width="130" height="20" rx="6" fill="#50092c"/>
+                <text x="50" y="54" font-family="'JetBrains Mono', monospace" font-size="9" fill="#ffffff">STUDENTS</text>
+                <line x1="50" y1="75" x2="150" y2="75" stroke="#ff4d2e" stroke-width="1.5"/>
+                <rect x="230" y="40" width="130" height="70" rx="6" fill="#1b0620" stroke="rgba(255, 77, 46, 0.4)"/>
+                <rect x="230" y="40" width="130" height="20" rx="6" fill="#50092c"/>
+                <text x="240" y="54" font-family="'JetBrains Mono', monospace" font-size="9" fill="#ffffff">THESIS_TOPIC</text>
+                <path d="M170 75H200V160H230" stroke="#ff4d2e" stroke-width="2" stroke-dasharray="3 3"/>
+                <rect x="230" y="140" width="130" height="60" rx="6" fill="#1b0620" stroke="rgba(255, 77, 46, 0.5)"/>
+                <rect x="230" y="140" width="130" height="20" rx="6" fill="#800f2f"/>
+                <text x="240" y="154" font-family="'JetBrains Mono', monospace" font-size="9" fill="#ffffff">SUPERVISOR</text>
+              </svg>
+            </div>
+            <div class="project-content-box">
+              <div>
+                <span class="project-tag-pill">Database Architecture</span>
+                <h3 class="project-card-heading">Thesis Management System</h3>
+                <p class="project-card-summary">
+                  Relational database application engineered to coordinate undergraduate thesis proposals, evaluations, and supervisor allocations.
+                </p>
+                <div class="project-tech-pills">
+                  <span class="tech-tag">SQL</span>
+                  <span class="tech-tag">MySQL</span>
+                  <span class="tech-tag">Relational Schema</span>
+                </div>
+              </div>
+              <div class="project-card-btns">
+                <a href="https://github.com/Waleedhasn/DBS25F001/tree/master/Thesis%20Management%20System" target="_blank" rel="noopener noreferrer" class="btn-card-primary">
+                  GitHub &rarr;
+                </a>
+                <button type="button" class="btn-card-secondary" data-project-id="thesis-system">
+                  Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Solitaire Game -->
+          <article class="project-framer-card">
+            <div class="project-thumb-box">
+              <svg viewBox="0 0 400 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="240" fill="#0d0411"/>
+                <rect x="50" y="40" width="60" height="80" rx="5" fill="#18041c" stroke="#ff4d2e" stroke-width="1.5"/>
+                <text x="60" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-weight="bold" font-size="14" fill="#ff4d2e">♠ A</text>
+                <g transform="translate(150, 40)">
+                  <rect x="0" y="0" width="65" height="85" rx="5" fill="#200524" stroke="rgba(255, 77, 46, 0.4)"/>
+                  <rect x="0" y="25" width="65" height="85" rx="5" fill="#28072e" stroke="rgba(255, 77, 46, 0.6)"/>
+                  <rect x="0" y="50" width="65" height="85" rx="5" fill="#350a3d" stroke="#ff4d2e" stroke-width="2"/>
+                  <text x="10" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-weight="bold" font-size="14" fill="#ffffff">♦ Q</text>
+                </g>
+                <g transform="translate(240, 40)">
+                  <rect x="0" y="0" width="65" height="85" rx="5" fill="#200524" stroke="rgba(255, 77, 46, 0.3)"/>
+                  <rect x="0" y="20" width="65" height="85" rx="5" fill="#28072e" stroke="rgba(255, 77, 46, 0.5)"/>
+                  <rect x="0" y="40" width="65" height="85" rx="5" fill="#350a3d" stroke="#ff4d2e" stroke-width="2"/>
+                  <text x="10" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-weight="bold" font-size="14" fill="#ff4d2e">♣ K</text>
+                </g>
+              </svg>
+            </div>
+            <div class="project-content-box">
+              <div>
+                <span class="project-tag-pill">Game Engineering</span>
+                <h3 class="project-card-heading">Solitaire Game</h3>
+                <p class="project-card-summary">
+                  Classic card game built in C++ featuring deck shuffling logic, legal move verification algorithms, and low-latency state machines.
+                </p>
+                <div class="project-tech-pills">
+                  <span class="tech-tag">C++</span>
+                  <span class="tech-tag">Game Logic</span>
+                  <span class="tech-tag">Algorithms</span>
+                </div>
+              </div>
+              <div class="project-card-btns">
+                <a href="https://github.com/Waleedhasn/CSC200M24PID51/commit/f5c97e604f44a2a733906d4a834b34c073741938" target="_blank" rel="noopener noreferrer" class="btn-card-primary">
+                  GitHub &rarr;
+                </a>
+                <button type="button" class="btn-card-secondary" data-project-id="solitaire-game">
+                  Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Inventory Management System -->
+          <article class="project-framer-card">
+            <div class="project-thumb-box">
+              <svg viewBox="0 0 400 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="240" fill="#0d0411"/>
+                <rect x="40" y="40" width="320" height="150" rx="8" fill="#18051f" stroke="rgba(255, 77, 46, 0.3)"/>
+                <path d="M70 150L130 110L190 130L250 80L310 100" stroke="#ff4d2e" stroke-width="3" stroke-linecap="round"/>
+                <circle cx="70" cy="150" r="4" fill="#ffffff"/>
+                <circle cx="130" cy="110" r="4" fill="#ffffff"/>
+                <circle cx="190" cy="130" r="4" fill="#ffffff"/>
+                <circle cx="250" cy="80" r="5" fill="#ff4d2e" stroke="#ffffff" stroke-width="2"/>
+                <circle cx="310" cy="100" r="4" fill="#ffffff"/>
+                <rect x="60" y="60" width="70" height="22" rx="4" fill="rgba(255, 77, 46, 0.15)"/>
+                <text x="68" y="75" font-family="'JetBrains Mono', monospace" font-size="9" fill="#ff4d2e">SKU #5102</text>
+                <rect x="140" y="60" width="90" height="22" rx="4" fill="rgba(52, 211, 153, 0.15)"/>
+                <text x="148" y="75" font-family="'JetBrains Mono', monospace" font-size="9" fill="#34d399">IN STOCK: 480</text>
+              </svg>
+            </div>
+            <div class="project-content-box">
+              <div>
+                <span class="project-tag-pill">Store Architecture</span>
+                <h3 class="project-card-heading">Inventory Management System</h3>
+                <p class="project-card-summary">
+                  Object-oriented store and stock management application handling item cataloging, inventory thresholds, and transaction flow records.
+                </p>
+                <div class="project-tech-pills">
+                  <span class="tech-tag">C#</span>
+                  <span class="tech-tag">OOP</span>
+                  <span class="tech-tag">Persistence</span>
+                </div>
+              </div>
+              <div class="project-card-btns">
+                <a href="https://github.com/Waleedhasn/OOP-semester-2/tree/main/2024-CS-51/StoreManagement" target="_blank" rel="noopener noreferrer" class="btn-card-primary">
+                  GitHub &rarr;
+                </a>
+                <button type="button" class="btn-card-secondary" data-project-id="inventory-system">
+                  Details
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- PROJECT DETAILS MODAL -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-project-title">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close Project Details">&times;</button>
+      <div style="margin-bottom: 1.5rem;">
+        <span class="label-pill-sub" id="modal-project-badge">PROJECT ARCHITECTURE</span>
+        <h3 class="modal-title" id="modal-project-title" style="color: #fff; font-size: 1.75rem;">Project Title</h3>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 1.25rem; color: var(--text-secondary); font-size: 0.98rem;">
+        <p id="modal-project-desc">Description</p>
+        <div>
+          <h4 style="font-size: 1rem; color: #fff; margin-bottom: 0.5rem;">Key Engineering Highlights:</h4>
+          <ul id="modal-details-list" style="padding-left: 1.25rem; list-style: disc;"></ul>
+        </div>
+        <div>
+          <h4 style="font-size: 1rem; color: #fff; margin-bottom: 0.5rem;">Technologies Used:</h4>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;" id="modal-tech-tags"></div>
+        </div>
+      </div>
+      <div style="margin-top: 1.75rem; padding-top: 1.25rem; border-top: 1px solid rgba(255, 255, 255, 0.08);">
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn-pill-action" id="modal-github-link">
+          <span>Open Repository on GitHub</span>
+          <span class="btn-pill-icon-circle">&rarr;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Unified Footer -->
+  <footer class="portfolio-footer">
+    <div class="container footer-content-row">
+      <div class="footer-left">
+        <div class="footer-logo">
+          <span class="logo-badge">W</span>
+          <span class="logo-name">Portfolio</span>
+        </div>
+        <p class="footer-copy">&copy; 2026 Waleed Hassan. All rights reserved. Third-year BS Computer Science, UET Lahore.</p>
+      </div>
+      <div class="footer-links">
+        <a href="../index.html#hero">Home</a>
+        <a href="../index.html#about">About</a>
+        <a href="../projects.html">Projects</a>
+        <a href="../experience.html">Experience</a>
+        <a href="mailto:grw2206420@outlook.com">grw2206420@outlook.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../data.js"></script>
+  <script src="../classes.js"></script>
+  <script src="../main.js"></script>
+</body>
+</html>
